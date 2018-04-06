@@ -1,29 +1,21 @@
 {
-    "name": "evence/soft-deleteable-extension-bundle",
-    "description": "Provides exta functions to the soft deleteable listener of gedmo",
+    "name": "frankhouweling/soft-deleteable-cascade",
+    "description": "Provides cascade functionality to Gedmo Doctrine Extensions soft-delete. Adjusted from E-vence/SoftDeleteableListenerExtensionBundle to be framework-independent.",
     "authors": [{
         "name": "Ruben Harms",
         "homepage": "http://www.rubenharms.nl/"
+    }, {
+        "name": "Frank Houweling"
     }],
-    "keywords": ["soft-deleteable"],
+    "keywords": ["soft-deleteable", "doctrine",  "doctrine-extensions", "gedmo"],
     "require": {
-        "php": ">=5.3.3 || >=7.1.3",
-        "symfony/framework-bundle": "~2.0 || ~3.0 || ~4.0"
+        "php": "^7.1",
+        "gedmo/doctrine-extensions": "dev-master",
     },
-    "require-dev": {
-        "symfony/console": "~2.0 || ~3.0 || ~4.0"
-    },
-    "target-dir": "Evence/Bundle/SoftDeleteableExtensionBundle",
     "minimum-stability": "dev",
-    "extra": {
-        "branch-alias": {
-            "dev-master": "0.1-dev"
-        }
-    },
     "autoload": {
-        "psr-0": {
-            "Evence\\Bundle\\SoftDeleteableExtensionBundle": ""
+        "psr-4": {
+            "FrankHouweling\\SoftDeleteableCascade\\": "src/"
         }
-    },
-    "type": "symfony-bundle"
+    }
 }
