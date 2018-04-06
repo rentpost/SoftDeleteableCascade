@@ -11,7 +11,8 @@
     "keywords": ["soft-deleteable", "doctrine",  "doctrine-extensions", "gedmo"],
     "require": {
         "php": "^7.1",
-        "gedmo/doctrine-extensions": "dev-master"
+        "gedmo/doctrine-extensions": "dev-master",
+        "symfony/property-access": "^4.0"
     },
     "minimum-stability": "dev",
     "autoload": {
