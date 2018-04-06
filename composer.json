@@ -7,7 +7,7 @@
     }, {
         "name": "Ruben Harms",
         "homepage": "http://www.rubenharms.nl/"
-    },],
+    }],
     "keywords": ["soft-deleteable", "doctrine",  "doctrine-extensions", "gedmo"],
     "require": {
         "php": "^7.1",
