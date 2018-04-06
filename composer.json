@@ -2,11 +2,12 @@
     "name": "frank-houweling/soft-deleteable-cascade",
     "description": "Provides cascade functionality to Gedmo Doctrine Extensions soft-delete. Adjusted from E-vence/SoftDeleteableListenerExtensionBundle to be framework-independent.",
     "authors": [{
+        "name": "Frank Houweling",
+        "homepage": "http://www.senet.nl/"
+    }, {
         "name": "Ruben Harms",
         "homepage": "http://www.rubenharms.nl/"
-    }, {
-        "name": "Frank Houweling"
-    }],
+    },],
     "keywords": ["soft-deleteable", "doctrine",  "doctrine-extensions", "gedmo"],
     "require": {
         "php": "^7.1",
